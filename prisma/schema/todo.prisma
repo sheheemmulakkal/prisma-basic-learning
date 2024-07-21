@@ -1,0 +1,7 @@
+model Todo {
+    id Int @id @default(autoincrement())
+    task String
+    description String?
+    dueDate DateTime
+    status Boolean @default(false)
+}
